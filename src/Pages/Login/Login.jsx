@@ -69,7 +69,7 @@ const Login = () => {
               New to Car Doctors{" "}
               <Link className="text-orange-600 font-bold" to="/signup">
                 Sign Up
-              </Link>{" "}
+              </Link>
             </p>
           </div>
         </div>
