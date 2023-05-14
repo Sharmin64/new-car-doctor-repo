@@ -1,7 +1,6 @@
 import React from "react";
-import person from "../../assets/images/about_us/person.jpg";
-import parts from "../../assets/images/about_us/parts.jpg";
-
+import person from "../../../assets/images/about_us/person.jpg";
+import parts from "../../../assets/images/about_us/parts.jpg";
 const About = () => {
   return (
     <div className="hero min-h-screen bg-base-200">

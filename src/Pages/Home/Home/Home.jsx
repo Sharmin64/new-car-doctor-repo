@@ -1,7 +1,7 @@
 import React from "react";
 import Bannar from "../Bannar/Bannar";
-import About from "../../../Shared/About/About";
 import Services from "../Services/Services";
+import About from "../About/About";
 
 const Home = () => {
   return (
