@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import img from "../../assets/images/login/login.svg";
 import { useContext } from "react";
-//import { AuthContext } from "../../providers/AuthProvider";
+import { AuthContext } from "../../Providers/AuthProvider";
 
 const SignUp = () => {
-  //const { createUser } = useContext(AuthContext);
+  const { createUser } = useContext(AuthContext);
 
   const handleSignUp = (event) => {
     event.preventDefault();
